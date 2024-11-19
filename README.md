@@ -19,7 +19,7 @@ users_and_facs_df, travel_dict, users, facs = load_an_instance(1, False)
 
 ## Example
 
-We provide a short code example of how to use this code in ```main.py```. To run the file, make sure you have navigated to the repository folder in your terminal. Then, you can run the file using ```python3 ./heuristics_and_mips/main.py```.
+We provide a short concrete example of how to our code via the ```main.py``` file. To run this file, make sure you have navigated to the repository folder in your terminal (see also the code requirements above. Then, you can run the file using ```python3 ./heuristics_and_mips/main.py```.
 In this example, we run the open greedy algorithm on Instance 1 to test out how different values for the parameters $n_c$ and $d$ perform across different budgets. This is assuming that we have the results for the BFLP MIP for this instance saved in the file ```instance_1_BFLP_MIP.json``` in the own_results folder. 
 
 
